@@ -7,3 +7,13 @@ C:\Users\Erdal\Desktop\DASAL\UI\main\HIL_Interface\HIL_Interface\obj\Debug\HIL_I
 C:\Users\Erdal\Desktop\DASAL\UI\main\HIL_Interface\HIL_Interface\obj\Debug\HIL_Interface.csproj.CoreCompileInputs.cache
 C:\Users\Erdal\Desktop\DASAL\UI\main\HIL_Interface\HIL_Interface\obj\Debug\HIL_Interface.exe
 C:\Users\Erdal\Desktop\DASAL\UI\main\HIL_Interface\HIL_Interface\obj\Debug\HIL_Interface.pdb
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\bin\Debug\HIL_Interface.exe.config
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\bin\Debug\HIL_Interface.exe
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\bin\Debug\HIL_Interface.pdb
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.csprojAssemblyReference.cache
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.UserInterface.resources
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.Properties.Resources.resources
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.csproj.GenerateResource.cache
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.csproj.CoreCompileInputs.cache
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.exe
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.pdb
