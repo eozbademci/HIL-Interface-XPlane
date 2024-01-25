@@ -19,7 +19,9 @@ using MathWorks.xPCTarget.FrameWork;
 
 namespace HIL_Interface
 {
-   
+  
+
+
     public partial class UserInterface : Form
     {
         //xPCSignal SigCmd;
@@ -175,6 +177,18 @@ namespace HIL_Interface
                 xplane_exe_flag = false;
             }
 
+        }
+             
+
+        private void InitialsButton_Click(object sender, EventArgs e)
+        {
+            // Yeni bir Form örneği oluşturarak açabilirsiniz
+            loadingForm loadingFormx = new loadingForm();
+            Form2 form = new Form2();
+            loadingFormx.Show();
+            form.Text = "Initial Conditions";
+            form.Show();
+            loadingFormx.Close();
         }
     }
 }

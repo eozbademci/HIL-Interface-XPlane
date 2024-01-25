@@ -37,6 +37,7 @@
             this.targetPortTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.InitialsButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,9 +59,9 @@
             this.connectButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Bold);
             this.connectButton.Location = new System.Drawing.Point(562, 398);
             this.connectButton.Name = "connectButton";
-            this.connectButton.Size = new System.Drawing.Size(79, 34);
+            this.connectButton.Size = new System.Drawing.Size(90, 34);
             this.connectButton.TabIndex = 4;
-            this.connectButton.Text = "Bağlan";
+            this.connectButton.Text = "Connect";
             this.connectButton.UseVisualStyleBackColor = false;
             this.connectButton.Click += new System.EventHandler(this.connectButton_Click);
             // 
@@ -74,7 +75,7 @@
             this.disconnectButton.Name = "disconnectButton";
             this.disconnectButton.Size = new System.Drawing.Size(130, 34);
             this.disconnectButton.TabIndex = 4;
-            this.disconnectButton.Text = "Bağlantıyı Kes";
+            this.disconnectButton.Text = "Disconnect";
             this.disconnectButton.UseVisualStyleBackColor = false;
             this.disconnectButton.Click += new System.EventHandler(this.disconnectButton_Click);
             // 
@@ -82,11 +83,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Sans Serif Collection", 8F);
-            this.label1.Location = new System.Drawing.Point(220, 408);
+            this.label1.Location = new System.Drawing.Point(237, 408);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 27);
+            this.label1.Size = new System.Drawing.Size(115, 27);
             this.label1.TabIndex = 5;
-            this.label1.Text = "Hedef IP Adres:";
+            this.label1.Text = "Target PC IP:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // targetAddressTextBox
@@ -127,13 +128,23 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(351, 73);
+            this.button2.Location = new System.Drawing.Point(340, 78);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(112, 64);
             this.button2.TabIndex = 7;
-            this.button2.Text = "XPlane Başlat/Durdur";
+            this.button2.Text = "Start Simulation";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // InitialsButton
+            // 
+            this.InitialsButton.Location = new System.Drawing.Point(332, 184);
+            this.InitialsButton.Name = "InitialsButton";
+            this.InitialsButton.Size = new System.Drawing.Size(131, 31);
+            this.InitialsButton.TabIndex = 8;
+            this.InitialsButton.Text = "Initials Conditions";
+            this.InitialsButton.UseVisualStyleBackColor = true;
+            this.InitialsButton.Click += new System.EventHandler(this.InitialsButton_Click);
             // 
             // UserInterface
             // 
@@ -141,6 +152,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.InitialsButton);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.targetPortTextBox);
             this.Controls.Add(this.targetAddressTextBox);
@@ -167,6 +179,7 @@
         private System.Windows.Forms.TextBox targetPortTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button InitialsButton;
     }
 }
 
