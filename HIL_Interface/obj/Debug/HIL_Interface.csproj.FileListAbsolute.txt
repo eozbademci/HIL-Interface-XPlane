@@ -17,3 +17,5 @@ C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Int
 C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.csproj.CoreCompileInputs.cache
 C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.exe
 C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.pdb
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\bin\Debug\xPCFramework.dll
+C:\Users\Erdal\Source\Repos\HIL-Interface-XPlane\HIL_Interface\obj\Debug\HIL_Interface.csproj.CopyComplete
