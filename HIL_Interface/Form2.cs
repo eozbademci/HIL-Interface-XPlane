@@ -12,10 +12,13 @@ namespace HIL_Interface
 {
     public partial class Form2 : Form
     {
+       
         public Form2()
         {
+            
             InitializeComponent();
-
+            
+            
             try
             {
                 string airports_path = @".\datas\airports.txt";
@@ -38,17 +41,15 @@ namespace HIL_Interface
             }
 
 
-            
+
             comboBox1.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
             comboBox1.AutoCompleteSource = AutoCompleteSource.ListItems;
         }
 
+
         
 
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
-        }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -72,6 +73,11 @@ namespace HIL_Interface
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }

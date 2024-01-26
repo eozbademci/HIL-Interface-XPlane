@@ -33,8 +33,10 @@ namespace HIL_Interface
         string xplane_path = @"C:\Users\Erdal\Desktop\X-Plane 11";
         public UserInterface()
         {
-
+            
+            
             InitializeComponent();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -59,9 +61,10 @@ namespace HIL_Interface
 
         private void connectButton_Click(object sender, EventArgs e)
         {
-
+            
             try
             {
+                
                 // Before trying to connect, make sure we're disconnected first in case we are now connecting to a different target.
                 if (tg.IsConnected == true)
                 {
@@ -89,6 +92,7 @@ namespace HIL_Interface
                 }
                 else
                     MessageBox.Show("Could not Connect!");
+
             }
             catch (xPCException me)
             {
@@ -182,13 +186,24 @@ namespace HIL_Interface
 
         private void InitialsButton_Click(object sender, EventArgs e)
         {
-            // Yeni bir Form örneği oluşturarak açabilirsiniz
-            loadingForm loadingFormx = new loadingForm();
+
+            this.Cursor = Cursors.AppStarting;
             Form2 form = new Form2();
-            loadingFormx.Show();
+           
+
             form.Text = "Initial Conditions";
             form.Show();
-            loadingFormx.Close();
+            this.Cursor = Cursors.Default;
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
